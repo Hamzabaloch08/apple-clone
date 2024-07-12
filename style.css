@@ -239,6 +239,13 @@ nav>ul>li {
 
 .apple_card {
     background-image: url(./images/apple-card-img.jpg);
+    padding-top: 45px;
+    line-height: 25px;
+}
+
+.apple_card>p:nth-child(2){
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 .iPhone_11 {
