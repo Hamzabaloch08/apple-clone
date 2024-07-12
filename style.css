@@ -18,7 +18,7 @@ nav {
     left: 0;
     right: 0;
     top: 0;
-    background-color: rgb(19, 19, 19);
+    background-color: #181818;
     color: rgb(220, 220, 220);
     height: 7vh;
     opacity: 0.9;
@@ -119,8 +119,12 @@ nav>ul>li {
 }
 
 #transparent:hover{
-    background-color: #0071e3;
+    background-color: #0078f0;
     color: #ffffff;
+}
+
+#blue:hover{
+    background-color: #0080ff;
 }
 
 .USB-C{
@@ -138,18 +142,13 @@ nav>ul>li {
 
 .sec3{
     margin-top: 60px;
-line-height: 30px;
+    line-height: 35px;
 }
 
 .sec3>h1:nth-child(1){
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 55px;
-}
-
-.sec3>p:nth-child(2){
-    width: 70%;
-    margin: 20px auto  ;
-    
+    margin-bottom: 20px;
 }
 
 .sec4{
@@ -167,19 +166,42 @@ line-height: 30px;
 }
 
 .size{
+    color: #1d1d1f;
     width: 100%;
     height: 90vh;
     background-position: center;
     background-repeat: no-repeat;
-
+    text-align: center;
 }
 
 .ai_mac{
     background-image: url(./images/promo_mac_does_that__ckozfqcs65w2_large.jpg);
+    padding-top: 45px;
+}
+
+.ai_mac>h1:first-child{
+    font-size: 38px;
+    margin: 0 auto;
+    width: 40%;
+    font-weight: 600;
+    letter-spacing: 0.01rem;
+    line-height: 40px;
+}
+
+.ai_mac>button:last-child{
+    font-size: 15px;
+    padding: auto 9px;
+    margin-top: 30px;
 }
 
 .Vision_pro{
     background-image: url(./images/apple_vision_pro.jpg);
+    align-content: end;
+    padding-bottom: 50px;
+}
+
+.Vision_pro>p:nth-child(2){
+    font-size: 20px;
 }
 
 .apple_ai{
